@@ -121,6 +121,9 @@
       .col {
         flex: 1;
         color: #333;
+        text-align: center;
+        border: 1px solid #333;
+        Margin: 10px;
       }
 
       /*break into a column for small screens */
@@ -137,3 +140,22 @@
       .flex-grid-thirds .col {
         width: 32%;
       }
+
+      img {
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        margin-top: 20px;
+      }
+
+
+    /* Main Page Intro text BELOW */
+
+    .middleText {
+      text-align: center;
+      color: white;
+    }
+
+      /*2nd column*/
+    .twoGrid {
+      background-color: #192024;
+    }
