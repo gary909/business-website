@@ -118,11 +118,24 @@
       .flex-grid {
         display: flex;
       }
+
+      .flex-grid1 {
+        display: flex;
+        justify-content: center;
+      }
+
+
       .col {
         flex: 1;
         color: #333;
         text-align: center;
         border: 1px solid #333;
+        Margin: 10px;
+      }
+
+      .col1 {
+        flex: 1;
+        text-align: center;
         Margin: 10px;
       }
 
@@ -155,7 +168,35 @@
       color: white;
     }
 
+    .centerText {
+      text-align: center;
+    }
+
       /*2nd column*/
     .twoGrid {
       background-color: #192024;
     }
+
+    .whiteText {
+      color: white;
+    }
+
+    .button {
+      border: 1px solid #ddd;
+      background-color: #192024;
+      color: white;
+      padding: 10px;
+      font-family: 'Open Sans', sans-serif;
+      border-radius: 10px;
+    }
+
+    /*3rd column*/
+    .thirdGrid {
+     background-color: #e3e7e9;
+    }
+
+    /*4th column*/
+    .forthGrid {
+      background-color: #4c4e4e;
+      color: white;
+     }
